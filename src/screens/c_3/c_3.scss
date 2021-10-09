@@ -1,0 +1,110 @@
+$bright-orange: hsl(31, 77%, 52%);
+$Dark-cyan: hsl(184, 100%, 22%);
+$Very-dark: hsl(179, 100%, 13%);
+
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$Very-light-grey: hsl(0, 0%, 95%);
+
+.c_3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  //   background-color: $Very-dark;
+  .container {
+    height: 60%;
+    width: 80%;
+    // background-color: crimson;
+    display: flex;
+    border-radius: 10px;
+    .card {
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      img {
+        width: 50px;
+        height: 30px;
+      }
+      .title {
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 30px;
+        color: $Very-light-grey;
+      }
+      .desc {
+        color: $transparent-white;
+        margin-bottom: 40px;
+      }
+      button {
+        width: 60%;
+        padding: 12px 25px;
+        border-radius: 20px;
+        outline: none;
+        border: 2px solid $transparent-white;
+        color: $transparent-white;
+        text-transform: capitalize;
+        font-size: 15px;
+        background-color: transparent;
+        cursor: pointer;
+        // &:nth-child(1) {
+        //   background-color: $transparent-white;
+        //   color: $Very-light-grey;
+        // }
+      }
+      &:nth-child(1) button:hover {
+        background-color: $transparent-white;
+        color: $bright-orange;
+      }
+      &:nth-child(2) button:hover {
+        background-color: $transparent-white;
+        color: $Dark-cyan;
+      }
+      &:nth-child(3) button:hover {
+        background-color: $transparent-white;
+        color: $Very-dark;
+      }
+    }
+    .part-1 {
+      background-color: $bright-orange;
+      border-radius: 10px 0 0 10px;
+    }
+    .part-2 {
+      background-color: $Dark-cyan;
+    }
+    .part-3 {
+      background-color: $Very-dark;
+      border-radius: 0 10px 10px 0;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .container {
+      height: 90%;
+      width: 90%;
+      flex-direction: column;
+      .card {
+        padding: 20px;
+        .title {
+          padding: 10px 0px;
+        }
+        .desc {
+          margin-bottom: 10px;
+        }
+        button {
+          width: 40%;
+          padding: 8px 16px;
+        }
+      }
+      .part-1 {
+        border-radius: 10px 10px 0 0;
+      }
+      .part-2 {
+        border-radius: 0;
+      }
+      .part-3 {
+        border-radius: 0 0 10px 10px;
+      }
+    }
+  }
+}
