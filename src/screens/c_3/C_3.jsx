@@ -9,8 +9,7 @@ const C_3 = () => {
           <div className="title">sedans</div>
           <div className="desc">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
-            provident atque quaerat obcaecati earum rerum aut corporis
-            accusantium repellendus dicta.
+            provident atque quaerat
           </div>
           <button>Learn more</button>
         </div>
@@ -19,8 +18,7 @@ const C_3 = () => {
           <div className="title">sedans</div>
           <div className="desc">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
-            provident atque quaerat obcaecati earum rerum aut corporis
-            accusantium repellendus dicta.
+            provident atque quaerat
           </div>
           <button>Learn more</button>
         </div>
@@ -29,8 +27,7 @@ const C_3 = () => {
           <div className="title">sedans</div>
           <div className="desc">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
-            provident atque quaerat obcaecati earum rerum aut corporis
-            accusantium repellendus dicta.
+            provident atque quaerat
           </div>
           <button>Learn more</button>
         </div>
