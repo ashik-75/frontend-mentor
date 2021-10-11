@@ -4,21 +4,18 @@ import './c_5.scss';
 const faqs = [
   {
     id: 1,
-    question: 'How many team member can i have?',
-    answer:
-      'Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet',
+    question: 'How many team member do you have?',
+    answer: 'Around 10 person.now are working with web, mobile and AI',
   },
   {
     id: 2,
     question: 'How much money you need?',
-    answer:
-      'Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet',
+    answer: 'It depends on need,but now i need $5000',
   },
   {
     id: 3,
-    question: 'How i contact with you?',
-    answer:
-      'Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet',
+    question: 'How can i contact with you?',
+    answer: 'You can contact with me via facebook,email,whatsapp',
   },
 ];
 
