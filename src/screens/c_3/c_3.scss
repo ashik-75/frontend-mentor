@@ -81,7 +81,7 @@ $Very-light-grey: hsl(0, 0%, 95%);
 
   @media screen and (max-width: 375px) {
     .container {
-      overflow: hidden;
+      // overflow: hidden;
       height: 90%;
       width: 90%;
       flex-direction: column;
@@ -89,7 +89,7 @@ $Very-light-grey: hsl(0, 0%, 95%);
         padding: 20px;
         .title {
           font-size: 25px;
-          padding: 27px 0px;
+          padding: 22px 0px;
         }
         .desc {
           margin-bottom: 25px;
