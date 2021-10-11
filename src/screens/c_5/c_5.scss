@@ -99,11 +99,15 @@ $Light-grayish: hsl(240, 5%, 91%);
             align-items: center;
             justify-content: space-between;
             .question {
+              width: 95%;
               font-size: 18px;
 
               &:hover {
                 color: $Soft-red;
               }
+            }
+            .arrow {
+              width: 5%;
             }
           }
           .answer {
@@ -172,6 +176,7 @@ $Light-grayish: hsl(240, 5%, 91%);
         }
         .faq-container {
           .faq {
+            width: 100%;
             padding: 10px 0px;
           }
         }
